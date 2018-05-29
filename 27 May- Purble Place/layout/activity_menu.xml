@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.purbleplace.MenuActivity"
+    android:background="@drawable/game_background"
+    android:padding="16dp">
+
+    <ImageView
+        android:padding="6dp"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@drawable/oval_shape"
+        android:id="@+id/playImage"/>
+
+    <ImageView
+        android:padding="6dp"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/ic_menu_set_as"
+        android:background="@drawable/oval_shape"
+        android:id="@+id/settingImage"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:padding="6dp"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@drawable/oval_shape"
+        android:id="@+id/exitImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"/>
+
+</RelativeLayout>

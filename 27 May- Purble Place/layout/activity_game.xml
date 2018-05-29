@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.purbleplace.GameActivity"
+    android:padding="6dp"
+    android:background="@android:color/holo_orange_light">
+
+
+    <TableRow
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/card1"
+            style="@style/CardStyle"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card4"
+            style="@style/CardStyle"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="6dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/card5"
+            style="@style/CardStyle"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/card6"
+            style="@style/CardStyle"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/card7"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card8"
+            style="@style/CardStyle"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="6dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/card9"
+            style="@style/CardStyle"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/card10"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card11"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card12"
+            style="@style/CardStyle"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:id="@+id/card13"
+            style="@style/CardStyle"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:id="@+id/card14"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card15"
+            android:layout_marginRight="6dp"
+            style="@style/CardStyle"/>
+
+        <ImageView
+            android:id="@+id/card16"
+            style="@style/CardStyle"/>
+
+    </TableRow>
+
+</TableLayout>
